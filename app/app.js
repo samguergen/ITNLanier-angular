@@ -1,19 +1,5 @@
-var app = angular.module('myApp', ['ui.router','ui.state']);
+angular.module('myApp', ['ui.router'])
 
-
-app.config(['$stateProvider', function($stateProvider){
-  console.log($stateProvider);
-  // $urlRouterProvider.otherwise('/');
-  
-var contact =  {
-    name: 'contact',
-    url: '/contact',
-    // templateUrl: '../views/contact.html',
-    template: "WRITE SOMETHING PLEASE",
-    controller: 'MainController'
-  };
-
-  $stateProvider.state(test);
   
     // .state('home', {
     //   url: '/',
@@ -105,8 +91,6 @@ var contact =  {
     //   templateUrl: '../views/add-pta-credit.html',
     //   controller: 'MainController'
     // })
-    
-}]);
 
 
 // app.run(['$state', function($state){
