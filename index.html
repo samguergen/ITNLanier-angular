@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   
@@ -114,7 +115,7 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-  <div class="main">
+  <div class="main" ui-view>
     
 Does this work? {{ test }}
 
