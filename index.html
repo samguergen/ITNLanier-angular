@@ -10,8 +10,8 @@
   
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+  <!-- <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script> -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   
@@ -65,7 +65,7 @@
             </li>
             
             <li>
-              <a href="views/news.html"><i class="fa fa-newspaper-o"></i> 
+              <a ui-sref="news"><i class="fa fa-newspaper-o"></i> 
                 NEWS
               </a>
             </li>
@@ -116,6 +116,7 @@
     </nav>
 
   <div class="main" ui-view>
+    <!-- <ui-view></ui-view> -->
     
 Does this work? {{ test }}
 
@@ -190,7 +191,9 @@ Does this work? {{ test }}
   <script src="node_modules/bootstrap/js/button.js"></script>  -->
   
 </div>
-  <!-- <script src="node_modules/angular/angular.min.js"></script> -->
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
   <script src="app/app.js"></script>
   <script src="app/controllers/mainController.js"></script>
 </body>
