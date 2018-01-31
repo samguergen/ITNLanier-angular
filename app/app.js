@@ -1,4 +1,5 @@
 var myApp = angular.module('myApp', ['ui.router']);
+
 myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
   console.log('inside of config block');
 
@@ -17,4 +18,10 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
   // enable HTML5 Mode for SEO
   $locationProvider.html5Mode(true);
-});
+})
+
+myApp.controller('MainController', ['$scope', function ($scope)  {
+  $scope.test = "this is a test";
+  
+  console.log('inside main controller', $scope.test);
+}]);
