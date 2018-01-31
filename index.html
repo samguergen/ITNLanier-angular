@@ -11,8 +11,7 @@
   
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <!-- <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script> -->
+
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   
@@ -35,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="assets/images/custom_logo.png" alt="main logo"/></a>
+          <a class="navbar-brand" ui-sref="home"><img src="assets/images/custom_logo.png" alt="main logo"/></a>
         </div>
 
 
@@ -44,7 +43,7 @@
           <ul class="nav navbar-nav navbar-right">
             
             <li>
-              <a href="index.html"><span class="glyphicon glyphicon-home"></span> 
+              <a ui-sref="home"><span class="glyphicon glyphicon-home"></span> 
                 HOME
               </a>
             </li>
@@ -55,18 +54,18 @@
                 ABOUT US
                 <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="views/services.html">What We Do</a></li>
-                <li><a href="views/organization.html">Our Organization</a></li>
-                <li><a href="views/faces.html">Faces of our Members</a></li>
-                <li><a href="views/faq.html">FAQ</a></li>
-                <li><a href="views/rider-stories.html">Unique Rider Stories</a></li>
+                <li><a ui-sref="services">What We Do</a></li>
+                <li><a ui-sref="organization">Our Organization</a></li>
+                <li><a ui-sref="faces">Faces of our Members</a></li>
+                <li><a ui-sref="faq">FAQ</a></li>
+                <li><a ui-sref="rider-stories">Unique Rider Stories</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="http://blog.itnamerica.org/">Blog</a></li>
               </ul>
             </li>
             
             <li>
-              <a ui-sref="state1"><i class="fa fa-newspaper-o"></i> 
+              <a ui-sref="news"><i class="fa fa-newspaper-o"></i> 
                 NEWS
               </a>
             </li>
@@ -82,12 +81,12 @@
                 RIDE WITH US
                 <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="views/member-app.html">Online Member Application</a></li>
-                <li><a href="views/volunteer-to-drive.html">Volunteer To Drive</a></li>
-                <li><a href="views/non-rider-member.html">Non-Rider Member Application</a></li>
-                <li><a href="views/family.html">Family Involvment</a></li>
-                <li><a href="views/member-programs.html">Member Programs</a></li>
-                <li><a href="views/pay-online.html">Pay Online</a></li>
+                <li><a ui-sref="member-app">Online Member Application</a></li>
+                <li><a ui-sref="volunteer-to-drive">Volunteer To Drive</a></li>
+                <li><a ui-sref="non-rider-member">Non-Rider Member Application</a></li>
+                <li><a ui-sref="family">Family Involvment</a></li>
+                <li><a ui-sref="member-programs">Member Programs</a></li>
+                <li><a ui-sref="pay-online">Pay Online</a></li>
               </ul>
             </li>
             
@@ -97,14 +96,14 @@
                 WAYS TO GIVE
                 <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="views/donate.html">Donate</a></li>
-                <li><a href="views/corporate.html">Corporate Partnership</a></li>
-                <li><a href="views/community.html">Community Support</a></li>
+                <li><a ui-sref="donate">Donate</a></li>
+                <li><a ui-sref="corporate">Corporate Partnership</a></li>
+                <li><a ui-sref="community">Community Support</a></li>
               </ul>
             </li>
             
             <li>
-              <a href="views/pay-online.html"><span class="glyphicon glyphicon-usd"></span> 
+              <a ui-sref="pay-online"><span class="glyphicon glyphicon-usd"></span> 
                 MAKE A PAYMENT
               </a>
             </li>
@@ -117,11 +116,8 @@
     </nav>
 
   <div class="main" ng-controller="MainController">
-    <!-- <ui-view></ui-view> -->
-    <div ui-view></div>
     
-Does this work? {{ test }}
-
+    <div ui-view></div>
   
   </div><!--MAIN-->
   
