@@ -85,6 +85,11 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
         templateUrl: '../views/services.html',
         // controller: 'MainController'
       })
+      .state('corporate', {
+        url: '/corporate',
+        templateUrl: '../views/corporate.html',
+        // controller: 'MainController'
+      })
       .state('volunteer-to-drive', {
         url: '/volunteer-to-drive',
         templateUrl: '../views/volunteer-to-drive.html',

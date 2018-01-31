@@ -247,7 +247,7 @@ nav .dropdown-menu li.divider{
 /* SERVICES */
 
 .services .first-hero {
-  background-image: url('../../images/itn-people-faded/man_on_bench.png');
+  background-image: url('../images/itn-people-faded/man_on_bench.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -350,7 +350,7 @@ nav .dropdown-menu li.divider{
 
 
 .news .first-hero {
-  background-image: url('../../images/itn-people-faded/seniors-social-coffee.png');
+  background-image: url('../images/itn-people-faded/seniors-social-coffee.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,7 +372,8 @@ nav .dropdown-menu li.divider{
 }
 .news .news-content h3 {
   font-size:30px;
-  color:#399eaa;
+  color:#576573;
+  font-weight:bold;
   text-transform: uppercase;
 }
 .news .news-content  img {
@@ -382,7 +383,6 @@ nav .dropdown-menu li.divider{
 .news .news-content ul{
   margin-top: 50px;
   list-style-type: none;
-  text-align:right;
   color: #b95856;
   font-weight: bold;
   line-height: 2;
@@ -393,17 +393,16 @@ nav .dropdown-menu li.divider{
 
 
 .contact .first-hero {
-  background-image: url('../../images/itn-people-faded/ITNLanier_mirror.png');
+  background-image: url('../images/itn-people-faded/ITNLanier_mirror.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   /*opacity: 0.5;*/
 }
-.contact .first-hero h1{
-  color:white;
+.contact #first-hero-contact h1 {
+  color:#529ba8 !important;
   text-shadow: 2px 2px #529ba8;
-  /*color:#c7dfe4;*/
   margin-top:170px;
   margin-left: 5%;
 }
@@ -419,7 +418,7 @@ nav .dropdown-menu li.divider{
   background:white;
 }
 .donate .first-hero {
-  background-image: url('../../images/itn-people-faded/woman-coffee.png');
+  background-image: url('../images/itn-people-faded/woman-coffee.png');
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -474,7 +473,7 @@ nav .dropdown-menu li.divider{
 }
 
 .corporate #first-hero-corporate {
-  background-image: url('../../images/itn-people-images/hands4-itn.jpg') !important;
+  background-image: url('../images/itn-people-images/hands4-itn.jpg') !important;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -511,7 +510,7 @@ nav .dropdown-menu li.divider{
 
 
 .community #first-hero-community {
-  background-image: url('../../images/itn-people-faded/women-car.png') !important;
+  background-image: url('../images/itn-people-faded/women-car.png') !important;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -564,7 +563,7 @@ nav .dropdown-menu li.divider{
 }
 
 .organization #first-hero-org {
-  background-image: url('../../images/itn-people-faded/ITNLanier_mirror.png');
+  background-image: url('../images/itn-people-faded/ITNLanier_mirror.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -683,8 +682,8 @@ nav .dropdown-menu li.divider{
 
 
  .faq #first-hero-faq {
-   /*background-image: url('../../images/backgrounds/background-faq.jpg');*/
-   background-image: url('../../images/itn-people-faded/woman-cheek.png');
+   /*background-image: url('../images/backgrounds/background-faq.jpg');*/
+   background-image: url('../images/itn-people-faded/woman-cheek.png');
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -716,7 +715,7 @@ nav .dropdown-menu li.divider{
    line-height: 2.2;
  }
  .faq .qa-wrapper {
-   background-image: url('../../images/backgrounds/background-faq.jpg');
+   background-image: url('../images/backgrounds/background-faq.jpg');
  }
  .faq .qa {
    float:left;
@@ -776,7 +775,7 @@ nav .dropdown-menu li.divider{
 }
 
 .rider-stories #first-hero-rider {
-  background-image: url('../../images/itn-people-faded/smiling-old-woman.png');
+  background-image: url('../images/itn-people-faded/smiling-old-woman.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -830,7 +829,7 @@ nav .dropdown-menu li.divider{
 }
 
 .faces #first-hero-faces {
-  background-image: url('../../images/itn-people-faded/smiling-old-woman2.png');
+  background-image: url('../images/itn-people-faded/smiling-old-woman2.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -880,7 +879,7 @@ nav .dropdown-menu li.divider{
 }
 
 .member-programs #first-hero-member {
-  background-image: url('../../images/itn-people-faded/group.png');
+  background-image: url('../images/itn-people-faded/group.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -929,7 +928,7 @@ nav .dropdown-menu li.divider{
 }
 
 .family #first-hero-family {
-  background-image: url('../../images/itn-people-faded/old-young.png');
+  background-image: url('../images/itn-people-faded/old-young.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1000,7 +999,7 @@ margin-left: -10%;
 }
 
 .pay-online #first-hero-pay-online {
-  background-image: url('../../images/itn-people-faded/people-paying.png');
+  background-image: url('../images/itn-people-faded/people-paying.png');
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1089,7 +1088,7 @@ margin-left: -10%;
 
 
 .become-member #first-hero-become {
-  background-image: url('../../images/itn-people-faded/old-aa-woman-reverse.png');
+  background-image: url('../images/itn-people-faded/old-aa-woman-reverse.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1120,7 +1119,7 @@ margin-left: -10%;
   margin: 15px 1%;
 }
 .become-member .ride-friend {
-  background-image: url('../../images/itn-people-images/men-car.jpg');
+  background-image: url('../images/itn-people-images/men-car.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
