@@ -1,6 +1,6 @@
 var app = angular.module('myApp', ['ui.router']);
 app.config(function($stateProvider, $urlRouterProvider){
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/');
   $stateProvider
     .state('home', {
       url: '/',
