@@ -1,0 +1,236 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ITN Lanier - new</title>
+  <meta name="description" content="">
+  <meta name="Sam Guergenenov" content="">
+  
+  <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+
+
+<body>
+  <div class="wrapper">
+  
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-left:-50%">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"><img src="../images/custom_logo.png"/></a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+              <a href="../index.html"><span class="glyphicon glyphicon-home"></span> 
+                HOME
+              </a>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-info-sign"></span> 
+                ABOUT US
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="services.html">What We Do</a></li>
+                <li><a href="organization.html">Our Organization</a></li>
+                <li><a href="faces.html">Faces of our Members</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="rider-stories.html">Unique Rider Stories</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="http://blog.itnamerica.org/">Blog</a></li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="news.html"><i class="fa fa-newspaper-o"></i> 
+                NEWS
+              </a>
+            </li>
+            <li>
+              <a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> 
+                CONTACT
+              </a>
+            </li>
+              
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-car"></i>
+                RIDE WITH US
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="member-app.html">Online Member Application</a></li>
+                <li><a href="volunteer-to-drive.html">Volunteer To Drive</a></li>
+                <li><a href="non-rider-member.html">Non-Rider Member Application</a></li>
+                <li><a href="family.html">Family Involvment</a></li>
+                <li><a href="member-programs.html">Member Programs</a></li>
+                <li><a href="pay-online.html">Pay Online</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-heart"></span> 
+                WAYS TO GIVE
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="corporate.html">Corporate Partnership</a></li>
+                <li><a href="community.html">Community Support</a></li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="pay-online.html"><span class="glyphicon glyphicon-usd"></span> 
+                MAKE A PAYMENT
+              </a>
+            </li>
+          
+            
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  <div class="main">
+    <div class="pay-online">
+      
+      <div class="jumbotron section first-hero" id="first-hero-pay-online">
+        <h1>Pay Online</h1>
+      </div>
+      
+      <div class="jumbotron section container">
+      <div class="title">
+        <h2>Pay online now through Paypal using your credit card</h2>
+        <hr align="left">
+      </div>
+      
+      
+      
+      <div class="row pay-online-content">
+        <div class="col-sm-6">
+        <p>Example prices include:</p>
+        <ul>
+        	<li>
+        		Annual Membership, $50 for an individual or $75 for a family</li>
+        	<li>
+        		Ride Credit, $50 initial deposit</li>
+        </ul>
+        </div>
+        
+        <div class="col-sm-6 row">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          	<input name="cmd" type="hidden" value="_s-xclick" /> <input name="hosted_button_id" type="hidden" value="23LUDK8MLDV5W" />
+          	<table class="col-sm-6">
+          		<tbody>
+          			<tr>
+          				<td>
+          					<input name="on0" type="hidden" value="Payment Type" /><strong>Payment Type</strong></td>
+          			</tr>
+          			<tr>
+          				<td>
+          					<select name="os0">
+                      <option value="Membership">Membership</option>
+                      <option value="Pay My Bill">Pay My Bill</option>
+                      <option value="Add Gift Certificate">Add Gift Certificate</option>
+                    </select>
+                  </td>
+          			</tr>
+          			<tr>
+          				<td>
+          					<input name="on1" type="hidden" value="Rider Name" /><strong>Rider Name</strong></td>
+          			</tr>
+          			<tr>
+          				<td>
+          					<input class="rider-name" maxlength="200" name="os1" required="" type="text" /></td>
+          			</tr>
+          		</tbody>
+          	</table>
+          	<input class="col-sm-6 paypal" alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="http://itnamerica.org/wp-content/uploads/2018/01/PayPal-PayNow-Button.png" type="image" /> <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" /></form>
+          <p>&nbsp;</p>
+        </div>
+      </div><!--row-->
+
+    </div><!--jumbo-->  
+    </div><!--pay-online-->
+  </div><!--MAIN-->
+  
+  <div id="footer">
+    <div class="container">
+        <div class="col-sm-4">
+          <div class="footer-title">ITN GATEWAY</div>
+          <hr>
+          <ul>
+            <li>Log In</li>
+            <li>Privacy Policy</li>
+            <li>Site Map</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-4 social-icons">
+          <div class="footer-title">JOIN OUR COMMUNITY</div>
+          <hr>
+          <div class="row">
+            <a href="http://www.facebook.com/itnamerica"><div class="col-sm-3 social-icon-border fb">
+              <i class="fa fa-facebook"></i>
+            </div></a>
+            <a href="http://www.twitter.com/itnamerica"><div class="col-sm-3 social-icon-border tw">
+              <i class="fa fa-twitter"></i>
+            </div></a>
+            <a href="http://www.youtube.com/itnamerica"><div class="col-sm-3 social-icon-border yt">
+              <i class="fa fa-youtube"></i>
+            </div></a>
+            <a href="http://www.instagram.com/itnamerica"><div class="col-sm-3 social-icon-border in">
+              <i class="fa fa-instagram"></i>
+            </div></a>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="footer-title">SEARCH</div>
+          <hr>
+          <form class="navbar-form navbar-left">
+            <span class="form-group row">
+              <div class="col-sm-10">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <div class="col-sm-2">
+                <button type="submit" class="btn btn-default btn-search">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </span>
+          </form>
+        </div>
+        
+    </div>
+  </div><!-- END FOOTER -->
+  
+  </div>
+  
+</div>
+  <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "itnlanier-angular",
+  "version": "1.0.0",
+  "description": "Angular app for ITNLanier",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "Samantha Guergenenov",
+  "license": "MIT"
+}
