@@ -7,6 +7,7 @@
   <title>ITN Lanier - new</title>
   <meta name="description" content="">
   <meta name="Sam Guergenenov" content="">
+  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
   
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -115,7 +116,7 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-  <div class="main">
+  <div class="main" ng-controller="MainController">
     <!-- <ui-view></ui-view> -->
     <div ui-view></div>
     
@@ -190,6 +191,6 @@ Does this work? {{ test }}
 
   <script src="app/app.js"></script>
   <!-- <script src="app/route.js"></script> -->
-  <!-- <script src="app/controllers/mainController.js"></script> -->
+  <script src="app/controllers/mainController.js"></script>
 </body>
 </html>

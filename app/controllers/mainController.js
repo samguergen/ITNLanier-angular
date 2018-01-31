@@ -1,6 +1,6 @@
 var app = angular.module('myApp', []);
 
-app.controller('MainController', ['$scope', '$state', function ($scope, $state)  {
+app.controller('MainController', ['$scope', function ($scope)  {
   $scope.test = "this is a test";
   
   console.log('inside main controller', $scope.test);
