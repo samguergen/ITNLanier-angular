@@ -41,11 +41,11 @@
                 <hr align="right" width="35%">
               </div>
               <p class="lead">Friends and family can give you a lift by purchasing ITN gift certificates for birthdays, Mother's Day, or any occasion.</p>
-              <p><button class="btn btn-lg mt-25" ng-click="testFunc(); gift-cert-info = !gift-cert-info">Buy a gift certificate here.</button></p>
+              <p><button class="btn btn-lg mt-25" ng-click="giftCertInfo = !giftCertInfo">Buy a gift certificate here.</button></p>
               
-              <div ng-show="gift-cert-info == true">
+              <div class="gift-cert-info" ng-show="giftCertInfo == true">
                 <p>A gift certificate for transportation is an original gift that can be used to take fun trips or necessary ones. They are a great way to help your parent or friend fund their Personal Transportation Account™. Celebrate Mother's Day, birthdays, and special holidays with a gift certificate in any amount, sent in a beautiful card by ITN<em>Lanier</em>. <br>
-                <a ui-sref="contact">Call or e-mail to order.</a></p>
+                <a href="#contact-form">Call or e-mail to order.</a></p>
 
                 <p>If you are trying to encourage safe, alternative transportation for your loved one, consider a gift certificate to pay for membership and their first ride. Our trained drivers will transport your loved one with special care -- opening doors, carrying packages, and offering friendly assistance as needed.</p>
               </div>
@@ -158,7 +158,7 @@
       <div class="container">
         <p style="text-align:center">Please contact us below for details.</p>
         
-        <div class="form-area" style="width:70%;margin:auto;margin-top:50px">  
+        <div class="form-area" style="width:70%;margin:auto;margin-top:50px" id="contact-form">  
               <form action="mailto:info@itnlanier.org" method="post" enctype="text/plain">
             <br style="clear:both">
               <h3 style="margin-bottom: 25px; text-align: center; color:#fc6d6d">Contact us</h3>
