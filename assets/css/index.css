@@ -241,12 +241,17 @@ nav .dropdown-menu li.divider{
 .homepage .rider-stories .rider-stories-text p {
   text-align:center;
 }
-.homepage .regeneron {
+.regeneron {
   background: white;
   font-size: 20px;
 }
-.homepage .regeneron h2 {
-  margin-bottom:5%;
+.regeneron h2 {
+  margin-bottom:3%;
+}
+.regeneron .reg-text {
+  padding-right: 8%;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 /* SERVICES */
@@ -507,6 +512,7 @@ nav .dropdown-menu li.divider{
   color: white;
   font-weight: bold;
   line-height: 2;
+  font-size:25px;
 }
 .corporate .description img {
   margin-left: -90%;

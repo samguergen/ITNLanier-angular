@@ -9,7 +9,7 @@
         
         <div class="jumbotron section container intro-wrapper">
           <h2 class="intro">
-            Below are a list of programs available to paying members
+            Every time an older person stops driving, a local businesses runs the risk of losing a customer. ITN<em>Lanier</em> offers innovative programs that both fight isolation and keep customers coming through the door of community businesses.
           </h2>
         </div><!--jumbo container-->
         
@@ -40,7 +40,13 @@
                 <hr align="right" width="35%">
               </div>
               <p class="lead">Friends and family can give you a lift by purchasing ITN gift certificates for birthdays, Mother's Day, or any occasion.</p>
-              <p><a href="#">Buy a gift certificate here.</a></p>
+              <p><button class="btn btn-lg" ng-click="testFunc(); gift-cert-info = !gift-cert-info">Buy a gift certificate here.</button></p>
+              <div ng-show="gift-cert-info == true">
+                <p>A gift certificate for transportation is an original gift that can be used to take fun trips or necessary ones. They are a great way to help your parent or friend fund their Personal Transportation Account™. Celebrate Mother's Day, birthdays, and special holidays with a gift certificate in any amount, sent in a beautiful card by ITN<em>Lanier</em>. <br>
+                <a ui-sref="contact">Call or e-mail to order.</a></p>
+
+                <p>If you are trying to encourage safe, alternative transportation for your loved one, consider a gift certificate to pay for membership and their first ride. Our trained drivers will transport your loved one with special care -- opening doors, carrying packages, and offering friendly assistance as needed.</p>
+              </div>
             </div>
             <div class="col-md-5 col-md-pull-7">
               <img class="featurette-image img-responsive center-block" src="../assets/images/icons/gift-certificate.jpg" alt="Generic placeholder image">
@@ -106,11 +112,11 @@
     
     <div class="jumbotron section comm-slogan">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-sm-8 descrip">
             <h2>Every time an older person stops driving, a business runs the risk of losing a customer. These programs help boost the local economy.</h2>
           </div>
-        </div>
+        </div> -->
         <div class="row">
           <div class="col-sm-offset-4 col-sm-8 descrip">
             <h2>The Ride & Shop™ program brings paying customers right to the door, then helps them with their packages as they leave.</h2>
