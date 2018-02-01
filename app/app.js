@@ -111,6 +111,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
 myApp.controller('MainController', ['$scope', function ($scope)  {
   console.log('inside main controller');
+  $scope.zoomLevel = 1;
   
   $scope.readMore = function(divId) {
     var content = document.getElementById(divId);
@@ -122,6 +123,18 @@ myApp.controller('MainController', ['$scope', function ($scope)  {
         content.style.display = "none";
         content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ MORE";
     }
+  }
+  
+  $scope.zoom = function(direction) {
+    if (direction == 'more') {
+      $scope.zoomLevel += 1;
+      var content = document.getElementByTagName(body);
+      content.style.fontSize = $scope.zoomLevel + 'rem';
+    }
+    else if (direction == 'less') {
+      $scope.zoomLevel -= 1;
+    }
+    
   }
   
 }]);
