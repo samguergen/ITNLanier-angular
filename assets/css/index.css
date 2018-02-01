@@ -1345,6 +1345,10 @@ margin-left: -10%;
   color: #fc6d6d;
   background-color: #fc6d6d;
 }
+.red-section {
+  background: #fc6d6d;
+  color: white;
+}
 
 /* GENERAL */
 

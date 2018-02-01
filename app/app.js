@@ -80,9 +80,9 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
         templateUrl: '../views/rider-stories.html',
         // controller: 'MainController'
       })
-      .state('services', {
+      .state('what-we-do', {
         url: '/what-we-do',
-        templateUrl: '../views/services.html',
+        templateUrl: '../views/what-we-do.html',
         // controller: 'MainController'
       })
       .state('corporate', {
