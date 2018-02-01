@@ -31,7 +31,7 @@
                   </div>
                     <i class="fa fa-quote-right pull-right" style="margin-top: -50px;" aria-hidden="true"></i> 
                 </p>
-                <button onclick="readMore('nancyText')" class="btn btn-primary btn-lg mt-25">READ MORE</button>
+                <button ng-click="readMore('nancyText')" class="btn btn-primary btn-lg mt-25">READ MORE</button>
               </div>
             </div><!--card-->
           </div><!--col-md-6-->
@@ -58,7 +58,7 @@
                     </div>
                     <i class="fa fa-quote-right pull-right" style="margin-top: -50px;" aria-hidden="true"></i> 
                 </p>
-                <button onclick="readMore('samText')" class="btn btn-primary btn-lg mt-25">READ MORE</button>
+                <button ng-click="readMore('samText')" class="btn btn-primary btn-lg mt-25">READ MORE</button>
               </div>
             </div><!--card-->
           </div><!--col-md-6-->
@@ -66,21 +66,3 @@
         
       </div><!--container-->
     </div><!--rider-stories-->
-  
-  
-  <!-- </div>
-  
-</div> -->
-  <script>
-      function readMore(divId) {
-        var content = document.getElementById(divId);
-        var buttonText = content.nextElementSibling.nextElementSibling.nextElementSibling.innerText;
-        if (content.style.display === "none") {
-            content.style.display = "block";
-            content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ LESS";
-        } else {
-            content.style.display = "none";
-            content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ MORE";
-        }
-    }
-  </script>

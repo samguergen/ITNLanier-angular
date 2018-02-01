@@ -665,10 +665,15 @@ nav .dropdown-menu li.divider{
 }
 #board .row .showBoardBio{
   /*display:none;*/
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
   font-size: 20px;
   line-height: 1.5;
   padding: 5px;
   margin-top: 20px;
+}
+#board .row .showBoardBio.ng-hide{
+  opacity:0;
 }
 .org-section {
   overflow:hidden;
@@ -833,7 +838,11 @@ nav .dropdown-menu li.divider{
   font-size: 50px;
 }
 .rider-stories .extra-text {
-  /*display:none;*/
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+.rider-stories .extra-text.ng-hide {
+  opacity:0;
 }
 
 .faces #first-hero-faces {

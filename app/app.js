@@ -110,12 +110,18 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 })
 
 myApp.controller('MainController', ['$scope', function ($scope)  {
-  $scope.test = "this is a test";
-  console.log('inside main controller', $scope.test);
+  console.log('inside main controller');
   
-  
-  
-  $scope.testFunc = function() {
-    console.log('function triggered');
+  $scope.readMore = function(divId) {
+    var content = document.getElementById(divId);
+    var buttonText = content.nextElementSibling.nextElementSibling.nextElementSibling.innerText;
+    if (content.style.display === "none") {
+        content.style.display = "block";
+        content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ LESS";
+    } else {
+        content.style.display = "none";
+        content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ MORE";
+    }
   }
+  
 }]);
