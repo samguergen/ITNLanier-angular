@@ -570,7 +570,7 @@ nav .dropdown-menu li.divider{
   text-align:center;
 }
 .community ul li {
-  margin-top:25
+  margin-top:25px;
 }
 
 .organization #first-hero-org {
@@ -999,14 +999,15 @@ padding: 50px;
   font-size: 23px;
 }
 .family .text-carousel img {
-position:absolute;
+  position:absolute;
+  /*height: 500px;*/
+  width: auto;
 }
 .family #gift-cert-img1 {
   height:400px;
 }
 .family #gift-cert-img2 {
-margin-top: -100px;
-margin-left: -10%;
+  margin-top: -150px;
 }
 
 .pay-online #first-hero-pay-online {
@@ -1388,6 +1389,10 @@ h2,h3 {line-height:1.7}
   
   .carousel-inner .item, .carousel-inner .item img {
     height:400px;
+  }
+  
+  .family #gift-cert-img1, .family #gift-cert-img2 {
+    visibility:hidden;
   }
 
 }
