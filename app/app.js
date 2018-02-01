@@ -101,7 +101,6 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
         // controller: 'MainController'
       })
 
-
   // default fall back route
   $urlRouterProvider.otherwise('/');
 
@@ -112,6 +111,7 @@ myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider){
 myApp.controller('MainController', ['$scope', function ($scope)  {
   console.log('inside main controller');
   $scope.zoomLevel = 1;
+  $scope.tab = 1;
   
   $scope.readMore = function(divId) {
     var content = document.getElementById(divId);

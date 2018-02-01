@@ -1193,6 +1193,32 @@ padding: 50px;
   line-height:150px;
 }
 
+.member-app #first-hero-online-app {
+  background-image: url('../images/itn-people-faded/man-fruits2.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.member-app #first-hero-online-app h1 {
+  color:white;
+  text-shadow: 2px 2px #529ba8;
+  margin-top:170px;
+  margin-left: 5%;
+}
+
+.member-app .form-area {
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  border: 1px solid GREY;
+  border: 2px solid #8f8fb66b;
+  border-radius: 5px;
+}
+.member-app .form-group {font-size:20px;}
+.member-app .form-control {font-size:20px; height:50px}
+.member-app .checkbox-inline {line-height: 1}
 
     
 #footer {
