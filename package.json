@@ -4,14 +4,27 @@
   "description": "Angular app for ITNLanier",
   "main": "app/app.js",
   "scripts": {
-    "test": "karma"
+    "test": "karma",
+    "postinstall": "ng build --aot -prod"
   },
   "author": "Samantha Guergenenov",
   "license": "MIT",
   "dependencies": {
+    "@angular/cli": "^1.6.7",
+    "@angular/compiler-cli": "^5.2.3",
     "@uirouter/angularjs": "^1.0.7",
     "angular": "^1.6.8",
     "angular-animate": "^1.6.8",
-    "angular-ui-router": "^1.0.3"
-  }
+    "angular-ui-router": "^1.0.3",
+    "express": "^4.16.2",
+    "typescript": "^2.3.4"
+  },
+  "devDependencies": {
+    "enhanced-resolve": "^3.3.0"
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "4.4.1"
+  },
+  "start": "node server.js"
 }
